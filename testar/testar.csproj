@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>EEUProtocolTool</AssemblyName>
+    <RootNamespace>EEUProtocolTool</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EEUniverse" Version="1.0.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
