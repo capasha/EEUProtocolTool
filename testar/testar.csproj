@@ -2,14 +2,17 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <AssemblyName>EEUProtocolTool</AssemblyName>
     <RootNamespace>EEUProtocolTool</RootNamespace>
+    <Version>1.0.1</Version>
+    <Authors>Capasha</Authors>
+    <Description>EEU protocol tool for detecting changes in the EEU SDK.</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EEUniverse" Version="1.0.4" />
+    <PackageReference Include="EEUniverse" Version="1.0.5" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 

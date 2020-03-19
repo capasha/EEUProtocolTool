@@ -24,7 +24,7 @@ namespace testar
         public Form1()
         {
             InitializeComponent();
-            this.Text = "EEUProtocol Tool";
+            this.Text = $"EEUProtocol Tool v{this.ProductVersion}";
         }
 
         private void ConnectButton_Click(object sender, EventArgs e)
